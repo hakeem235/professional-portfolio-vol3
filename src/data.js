@@ -17,6 +17,7 @@ export const featuredPortfolio = [
       img:
         "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
     },
+  
     {
       id: 4,
       title: "Relax Mobile App",
