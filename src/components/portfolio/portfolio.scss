@@ -1,8 +1,8 @@
 @import "../../global.scss";
 
 .portfolio {
-  background-color:darkblue;
-  color:white;
+  background-color:white;
+  color: $mainColor;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,39 +32,44 @@
   .container {
     width: 70%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    
 
     @include mobile{
       width: 100%;
     }
 
     .item {
-      width: 220px;
-      height: 150px;
+      width: 250px;
+      height: 200px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
       margin: 10px 20px;
       display: flex;
+      flex: 0.5;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      color: white;
+      color:white;
       position: relative;
       transition: all .5s ease;
       cursor: pointer;
+      a {
+        color:$mainColor;
+        display: flex;
+        text-decoration: none;
+        overflow:hidden;
 
+      }
+
+      
       @include mobile{
         width: 130px;
         height: 100px;
       }
 
-      .url{
-        overflow: none;
-        padding-right: 5px;
-        text-decoration: none;
-      }
 
       h3 {
         position: absolute;
@@ -83,6 +88,9 @@
         img {
           opacity: 0.2;
           z-index: 0;
+        }
+        a{
+          color:white;
         }
       }
     }
