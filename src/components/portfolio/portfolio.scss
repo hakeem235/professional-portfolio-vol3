@@ -42,13 +42,12 @@
     }
 
     .item {
-      width: 250px;
-      height: 200px;
+      width: 220px;
+      height: 150px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
       margin: 10px 20px;
       display: flex;
-      flex: 0.5;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -56,9 +55,9 @@
       position: relative;
       transition: all .5s ease;
       cursor: pointer;
+      
       a {
         color:$mainColor;
-        display: flex;
         text-decoration: none;
         overflow:hidden;
 
