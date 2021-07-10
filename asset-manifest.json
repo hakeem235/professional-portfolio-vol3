@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/hakeem235/professional-portfolio-vol3/static/css/main.d34d1402.chunk.css",
-    "main.js": "/hakeem235/professional-portfolio-vol3/static/js/main.39af59e4.chunk.js",
-    "main.js.map": "/hakeem235/professional-portfolio-vol3/static/js/main.39af59e4.chunk.js.map",
-    "runtime-main.js": "/hakeem235/professional-portfolio-vol3/static/js/runtime-main.e95dd9d5.js",
-    "runtime-main.js.map": "/hakeem235/professional-portfolio-vol3/static/js/runtime-main.e95dd9d5.js.map",
-    "static/js/2.19ac13a2.chunk.js": "/hakeem235/professional-portfolio-vol3/static/js/2.19ac13a2.chunk.js",
-    "static/js/2.19ac13a2.chunk.js.map": "/hakeem235/professional-portfolio-vol3/static/js/2.19ac13a2.chunk.js.map",
-    "index.html": "/hakeem235/professional-portfolio-vol3/index.html",
-    "static/css/main.d34d1402.chunk.css.map": "/hakeem235/professional-portfolio-vol3/static/css/main.d34d1402.chunk.css.map",
-    "static/js/2.19ac13a2.chunk.js.LICENSE.txt": "/hakeem235/professional-portfolio-vol3/static/js/2.19ac13a2.chunk.js.LICENSE.txt",
-    "static/media/ahmed-cv.684b829c.pdf": "/hakeem235/professional-portfolio-vol3/static/media/ahmed-cv.684b829c.pdf",
-    "static/media/ahmed.de1d9bcf.png": "/hakeem235/professional-portfolio-vol3/static/media/ahmed.de1d9bcf.png",
-    "static/media/shake.c7165a1f.svg": "/hakeem235/professional-portfolio-vol3/static/media/shake.c7165a1f.svg"
+    "main.css": "/professional-portfolio-vol3/static/css/main.2976b739.chunk.css",
+    "main.js": "/professional-portfolio-vol3/static/js/main.dea8417f.chunk.js",
+    "main.js.map": "/professional-portfolio-vol3/static/js/main.dea8417f.chunk.js.map",
+    "runtime-main.js": "/professional-portfolio-vol3/static/js/runtime-main.924f9aa0.js",
+    "runtime-main.js.map": "/professional-portfolio-vol3/static/js/runtime-main.924f9aa0.js.map",
+    "static/js/2.119982a2.chunk.js": "/professional-portfolio-vol3/static/js/2.119982a2.chunk.js",
+    "static/js/2.119982a2.chunk.js.map": "/professional-portfolio-vol3/static/js/2.119982a2.chunk.js.map",
+    "index.html": "/professional-portfolio-vol3/index.html",
+    "static/css/main.2976b739.chunk.css.map": "/professional-portfolio-vol3/static/css/main.2976b739.chunk.css.map",
+    "static/js/2.119982a2.chunk.js.LICENSE.txt": "/professional-portfolio-vol3/static/js/2.119982a2.chunk.js.LICENSE.txt",
+    "static/media/ahmed-cv.684b829c.pdf": "/professional-portfolio-vol3/static/media/ahmed-cv.684b829c.pdf",
+    "static/media/ahmed.de1d9bcf.png": "/professional-portfolio-vol3/static/media/ahmed.de1d9bcf.png",
+    "static/media/shake.c7165a1f.svg": "/professional-portfolio-vol3/static/media/shake.c7165a1f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e95dd9d5.js",
-    "static/js/2.19ac13a2.chunk.js",
-    "static/css/main.d34d1402.chunk.css",
-    "static/js/main.39af59e4.chunk.js"
+    "static/js/runtime-main.924f9aa0.js",
+    "static/js/2.119982a2.chunk.js",
+    "static/css/main.2976b739.chunk.css",
+    "static/js/main.dea8417f.chunk.js"
   ]
 }
