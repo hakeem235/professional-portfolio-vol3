@@ -29,7 +29,7 @@ export default function Intro() {
         <h2>Hi There, I'm</h2>
           <h1>Ahmed Hakeem</h1>
           <h3>
-            Freelance <span ref={textRef}></span>
+            Freelancer <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">
