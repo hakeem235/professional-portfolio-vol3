@@ -39,8 +39,8 @@
       id: 6,
       title: "Colorcude",
       img: "https://i.ibb.co/GHcp99Q/Colorcude.jpg",
-      live:"",
-      github:""
+      live:"http://www.coloredcube.co/",
+      github:"http://www.coloredcube.co/"
     },
     {
       id: 7,
