@@ -42,6 +42,20 @@
       live:"",
       github:""
     },
+    {
+      id: 7,
+      title: "Workout Tracker",
+      img: "https://i.ibb.co/LhkH3Gy/Screen-Shot-2021-07-11-at-00-10-44.png",
+      live:"https://hakeemworkout.herokuapp.com/",
+      github:"https://github.com/hakeem235/Workout-Tracker"
+    },
+    {
+      id: 8,
+      title: "TechBolg",
+      img: "https://i.ibb.co/KrQR3sv/Screen-Shot-2021-07-11-at-00-15-31.png",
+      live:"https://hakeemstechblog.herokuapp.com/",
+      github:"https://github.com/hakeem235/TechBlog"
+    },
   ];
   
   export const mobilePortfolio = [
