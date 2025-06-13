@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./contact.scss";
-import shake from "../../assets/shake.svg"
-
+import shake from "../../assets/shake.svg";
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
@@ -13,18 +12,17 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src={shake} alt="" />
+        <img src={shake} alt="Handshake illustration" />
       </div>
       <div className="right">
         <h2>Contact.</h2>
         <form onSubmit={handleSubmit}>
-          <input type="text" placeholder="Email" />
-          <textarea placeholder="Message"></textarea>
+          <input type="text" placeholder="Email" aria-label="Email" />
+          <textarea placeholder="Message" aria-label="Message"></textarea>
           <button type="submit">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Thanks, I&apos;ll reply ASAP :)</span>}
         </form>
       </div>
     </div>
   );
-  
 }

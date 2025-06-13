@@ -1,20 +1,50 @@
-import "./menu.scss"
+import "./menu.scss";
+import PropTypes from "prop-types";
 
 export default function Menu({ menuOpen, setMenuOpen }) {
-    return (
-        <div className={"menu " +  (menuOpen && "active")}> 
-            <ul>
-                 <li onClick= {() => setMenuOpen(false)}>
-                     <a href="#intro">Home</a>
-                 </li>
-                 <li onClick= {() => setMenuOpen(false)}>
-                     <a href="#portfolio">Portfolio</a>
-                 </li>
-                 <li onClick= {() => setMenuOpen(false)}>
-                     <a href="#contact">Contact</a>
-                 </li>
-            </ul>
-            
-        </div>
-    )
+  const handleItemClick = () => {
+    setMenuOpen(false);
+  };
+
+  const handleItemKeyDown = (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      setMenuOpen(false);
+    }
+  };
+
+  return (
+    <div className={"menu " + (menuOpen && "active")}>
+      <ul>
+        <li
+          onClick={handleItemClick}
+          onKeyDown={handleItemKeyDown}
+          role="menuitem"
+          tabIndex="0"
+        >
+          <a href="#intro">Home</a>
+        </li>
+        <li
+          onClick={handleItemClick}
+          onKeyDown={handleItemKeyDown}
+          role="menuitem"
+          tabIndex="0"
+        >
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li
+          onClick={handleItemClick}
+          onKeyDown={handleItemKeyDown}
+          role="menuitem"
+          tabIndex="0"
+        >
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  );
 }
+
+Menu.propTypes = {
+  menuOpen: PropTypes.bool.isRequired,
+  setMenuOpen: PropTypes.func.isRequired,
+};

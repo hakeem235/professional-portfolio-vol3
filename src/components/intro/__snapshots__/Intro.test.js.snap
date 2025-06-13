@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intro Component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="intro"
+    id="intro"
+  >
+    <div
+      class="left"
+    >
+      <div
+        class="imgContainer"
+      >
+        <img
+          alt="Ahmed Hakeem"
+          src="ahmed.png"
+        />
+      </div>
+    </div>
+    <div
+      class="right"
+    >
+      <div
+        class="textContainer"
+      >
+        <h2>
+          Hi There, I'm
+        </h2>
+        <h1>
+          Ahmed Hakeem
+        </h1>
+        <h3>
+          Freelancer
+          <span />
+        </h3>
+      </div>
+      <a
+        href="#portfolio"
+      >
+        <img
+          alt="Scroll to portfolio"
+          src="down.png"
+        />
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
