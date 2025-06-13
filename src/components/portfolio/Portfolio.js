@@ -8,27 +8,28 @@ import {
   contentPortfolio,
 } from "../../data";
 
+const list = [
+  {
+    id: "web",
+    title: "Web App",
+  },
+  {
+    id: "mobile",
+    title: "Mobile App",
+  },
+  {
+    id: "design",
+    title: "Design",
+  },
+  {
+    id: "content",
+    title: "Content",
+  },
+];
+
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
   const [data, setData] = useState([]);
-  const list = [
-    {
-      id: "web",
-      title: "Web App",
-    },
-    {
-      id: "mobile",
-      title: "Mobile App",
-    },
-    {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
-    },
-  ];
 
   useEffect(() => {
     switch (selected) {
@@ -51,9 +52,10 @@ export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
-      <ul>
+      <ul role="listbox">
         {list.map((item) => (
           <PortfolioList
+            key={item.id}
             title={item.title}
             active={selected === item.id}
             setSelected={setSelected}
@@ -63,13 +65,10 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item">
-            <img
-              src={d.img}
-              alt=""
-            />
+          <div className="item" key={d.id}>
+            <img src={d.img} alt={d.title} />
             <h3>{d.title}</h3>
-            <a  href={d.live}>Live Demo</a>
+            <a href={d.live}>Live Demo</a>
             <a href={d.github}>GitHub</a>
           </div>
         ))}
